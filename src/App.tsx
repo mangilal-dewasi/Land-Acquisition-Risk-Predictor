@@ -242,7 +242,7 @@ export default function App() {
   const handleExportReport = () => {
     const payload = {
       generatedAt: new Date().toISOString(),
-      project: 'SIH26017 Land Acquisition Risk Predictor',
+      project: 'Land Acquisition Risk Predictor',
       parameters,
       engineered_features: prediction.engineered,
       assessment: {
